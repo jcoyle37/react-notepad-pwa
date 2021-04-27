@@ -1,10 +1,16 @@
 import React from "react";
 
+import Navigation from './Navigation';
+import Notes from './Notes';
+
+import './../index.css';
+
 const App = () => {
     return (
-        <div>
-            <div>Welcome to react-notepad-pwa!</div>
-        </div>
+        <main>
+            <Navigation />
+            <Notes />
+        </main>
     );
 };
 
