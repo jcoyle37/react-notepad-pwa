@@ -1,10 +1,10 @@
 import React from "react";
 
-import './../index.css';
+import styles from './../index.css';
 
 const Notes = () => {
     return (
-        <section styleName="notes">
+        <section className={styles.notes}>
             Notes Placeholder Text
         </section>
     );
